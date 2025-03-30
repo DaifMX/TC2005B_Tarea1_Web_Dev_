@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+a:visited {
+    color: red
+}
+
+#title {
+    margin-right: 5px;
+}
+
+#header {
+    background-image: url("./foto-perrona.jpg");
+    border-radius: 20px;
+    color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.child-container {
+    background-color: rgba(31, 31, 31, 0.664);
+    border-radius: 20px;
+}
+
+#index-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#languages-li {
+    margin-top: 0px;
+}
+
+#frameworks-li {
+    margin-top: 10px;
+}
